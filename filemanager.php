@@ -118,8 +118,11 @@ if ($use_auth) {
         ?>
         <div class="path">
             <form action="" method="post" style="margin:10px;text-align:center">
+                <br><br>
                 <input name="fm_usr" value="" placeholder="Username" required>
+                <br><br>
                 <input type="password" name="fm_pwd" value="" placeholder="Password" required>
+                <br><br>
                 <input type="submit" value="Login">
             </form>
         </div>
@@ -1784,7 +1787,7 @@ code.maxheight,pre.maxheight{max-height:512px}input[type="checkbox"]{margin:0;pa
 function fm_show_footer()
 {
     ?>
-<p class="center"><small><a href="https://github.com/alexantr/filemanager" target="_blank">PHP File Manager</a></small></p>
+<!-- <p class="center"><small><a href="https://github.com/alexantr/filemanager" target="_blank">PHP File Manager</a></small></p> -->
 </div>
 <script>
 function newfolder(p){var n=prompt('New folder name','folder');if(n!==null&&n!==''){window.location.search='p='+encodeURIComponent(p)+'&new='+encodeURIComponent(n);}}
